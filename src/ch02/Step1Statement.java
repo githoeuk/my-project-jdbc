@@ -31,7 +31,7 @@ public class Step1Statement {
                 // String created_at = rs.getString("created_at");
                 Timestamp created_at = rs.getTimestamp("created_at");
 
-                System.out.println("상품 ID :" + id + " | " + "카테고리ID :" + category_id + " | " + "상품명 : " + name
+                System.out.println("상품 ID :" + id + " | " + "카테고리ID :" + category_id    + " | " + "상품명 : " + name
                                     + " | " + "가격 : " + price + " | " + "재고 : " + stock + " | "
                                     + "\n" + "상세설명 : " + description + " | " + "생성 일자 : " + created_at);
             } // end of while
